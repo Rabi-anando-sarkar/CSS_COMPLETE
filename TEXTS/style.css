@@ -1,0 +1,16 @@
+.headingOne {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px ;
+    text-decoration-style: wavy;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 20px blue;
+}
+
+p {
+    letter-spacing: 1.2px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    /* white-space: nowrap; */
+}

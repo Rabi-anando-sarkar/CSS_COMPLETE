@@ -1,0 +1,55 @@
+h2 {
+    color: red;
+}
+
+.headingClass {
+    color: green;
+}
+
+#headingId {
+    color: blue;
+}
+
+/* NAMED  C O L O R S */
+
+.namedClass {
+    color: purple;
+}
+
+/* RGB C O L O R S */ 
+
+.rgbClass {
+    color: rgb(220, 77, 100);
+}
+
+.rgbaClass {
+    color: rgba(20, 77, 100, 0.4);
+}
+
+/* HEXADECIMAL C O L O R S */ 
+
+.hexadecimalClass {
+    color: #3fff5f;
+}
+
+/* HSL C O L O R S*/ 
+
+.hslClass {
+    color: hsl(0, 100%, 20%);
+}
+
+.hslaClass {
+    color: hsla(0, 100%, 20%, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+

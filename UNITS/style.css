@@ -1,0 +1,27 @@
+html {
+    font-size: 10px;
+}
+
+.headingOne {
+    font-size: 20px;
+}
+
+/* 
+    For Percentages : 100% = 16px
+
+    For EMs : 1em = 16px (Parent pe Depend karta hai)
+
+    For REMs : 1rem = 10px (Root pe Depend karta hai)
+*/
+
+.headingTwo {
+    font-size: 200%;
+}
+
+.headingThree {
+    font-size: 2em;
+}
+
+.headingFour {
+    font-size: 2rem;
+}

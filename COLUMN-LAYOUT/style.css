@@ -1,0 +1,12 @@
+section {
+    margin: 0 auto;
+    padding: 75px;
+    width: 500px;
+}
+
+p {
+    column-count: 3;
+    column-rule: 4px dotted red;
+    column-gap: 20px;
+    text-align: justify;
+}

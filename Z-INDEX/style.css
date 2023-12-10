@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+.parent-div {
+    position: relative;
+}
+
+.child {
+    color: blue;
+    border: 1px solid red;
+    position: absolute;
+}
+
+.child.child-1 {
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+}
+
+.child.child-2 {
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+}
+
+.child.child-3 {
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    background-color: bisque;
+}
+
+.child.child-4 {
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}

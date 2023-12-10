@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;600&family=Urbanist:wght@400;500;600;700&display=swap');
+@font-face { 
+    font-family: "Rabi";
+    src: url('./Rustic\ Pantry.otf') format("OpenType")
+}
+
+.headingOne {
+    font-family: 'Urbanist', sans-serif;
+    font-family: "Rabi";
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: "Jost";
+    font-weight: 300;
+    font-size: 18px;
+    font-style: oblique;
+    font-variant: small-caps;
+}

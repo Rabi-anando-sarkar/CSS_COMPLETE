@@ -1,0 +1,14 @@
+div {
+    background-color: beige;
+    padding: 5px 5px 5px 5px;
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    /*overflow: hidden;*/
+    /*overflow: scroll;*/
+    overflow: auto;
+}

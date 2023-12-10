@@ -1,0 +1,19 @@
+p {
+    background-color: aquamarine;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+span {
+    background-color: yellowgreen;
+    display: inline-block;
+    padding: 15px 36px;
+    border: 2px solid red;
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}

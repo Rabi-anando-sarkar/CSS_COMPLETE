@@ -1,0 +1,41 @@
+h1{
+    color: blue;
+}
+
+.one li {
+    list-style: none;
+}
+
+.two {
+    list-style: none;
+}
+
+.oneDiv .one li:first-child {
+    color: red;
+}
+
+.oneDiv .one p:last-child {
+    color: red;
+}
+
+.oneDiv .one li:nth-of-type(2) {
+    color: red;
+}
+
+.oneDiv .one li:first-of-type {
+    color: blue;
+}
+
+.oneDiv .one li:last-of-type {
+    color: blue;
+}
+
+.twoDiv .two li:nth-child(even) {
+    color: green;
+    font-size: 30px;
+}
+
+.twoDiv .two li:nth-child(odd) {
+    color: purple;
+    font-size: 30px;
+}

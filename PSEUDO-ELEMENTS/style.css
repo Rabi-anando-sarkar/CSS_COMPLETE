@@ -1,0 +1,34 @@
+* {
+    margin: 20px;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+h1 {
+    position: relative;
+    color: gold;
+}
+
+h1::before {
+    content: "CSS ";
+    position: absolute;
+    top: -40px;
+    font-size: 50px;
+    color: black;
+}
+
+h1::after {
+    content: " Element";
+}
+
+h1::first-letter {
+    color: purple;
+    font-size: 40px
+}
+
+p::first-line {
+    text-decoration: underline;
+}
+
+p::selection {
+    background-color: rgba(128, 0, 128,0.5);
+}

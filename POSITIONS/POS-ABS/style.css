@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+.parent {
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    position: relative;
+}
+
+div {
+    padding: 10px;
+    background-color: goldenrod;
+    width: 30px;
+    height: 20px;
+    border: 1px solid brown;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.child-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.child-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.child-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.child-4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.child-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

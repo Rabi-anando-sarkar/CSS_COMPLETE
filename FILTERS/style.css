@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;600&family=Urbanist:wght@400;500;600;700&display=swap');
+
+html {
+    font-family: "Urbanist";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #191717;
+    display: grid;
+    place-items: center;
+}
+
+img {
+    width: 50%;
+    border-radius: 20px;
+    /*filter: grayscale();*/
+    /*filter: blur(2px);*/
+    /*filter: brightness(1.5);*/
+    /*filter: contrast(0.9);*/
+    /*filter: hue-rotate(180deg);*/
+    /*filter: invert(0.9);*/
+    /*filter: opacity(0.1);*/
+    /*filter: sepia(0.9);*/
+}

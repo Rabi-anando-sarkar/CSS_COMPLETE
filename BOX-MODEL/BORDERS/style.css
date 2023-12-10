@@ -1,0 +1,20 @@
+.headingOne {
+    background-color: lightblue;
+    border: 10px solid darkblue;
+    border-radius: 20px;
+}
+
+p {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        to right top,
+        #bf1dbf,
+        #bb63bb,
+        #1dbf8e,
+        #bf1d3d
+    );
+}

@@ -1,0 +1,15 @@
+ul p {
+    font-weight: bold;
+}
+
+div > ul > li {
+    color: blue;
+}
+
+div ul p + li {
+    color: pink;
+}
+
+div ul p ~ li {
+    color: purple;
+}
