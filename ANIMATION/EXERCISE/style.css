@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.1)
+    )
+    ,url("https://i.pinimg.com/originals/8f/1a/b8/8f1ab8b14a55720d6859620a6f596933.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+img {
+    width: 200px;
+    position: absolute;
+    bottom: 10%;
+    animation: mario 4s linear alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mario {
+    from {
+        translate: 0%;
+    }
+    to {
+        translate: calc(100vw - 200px);
+    }
+}

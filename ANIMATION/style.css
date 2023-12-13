@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightslategray;
+    padding: 20px 20px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: lightcoral;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px lightpink;
+    display: inline-block;
+    animation-name: leftToRight;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes leftToRight {
+    from {
+        translate: 0%;
+    }
+    to {
+        translate: calc(90vw - 80px);
+    }
+}

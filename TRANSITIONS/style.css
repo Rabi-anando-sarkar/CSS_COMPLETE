@@ -1,0 +1,29 @@
+body {
+  background-color: bisque;
+}
+
+a {
+  font-size: 40px;
+  width: 200px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  transition-timing-function: ease-in-out;
+  transition-duration: 2s;
+  transition-delay: 1s;
+  transition-property: all;
+}
+
+.anc {
+  text-decoration: none;
+  color: black;
+  border: 5px solid #ba1d1d;
+}
+
+a:hover {
+  color: lightblue;
+  background-color: purple;
+  width: 400px;
+  box-shadow: rgba(50, 50, 93, 0.8) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.5) 0px 8px 16px -8px;
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 400px;
+    height: 220px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 22px;
+    margin: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.container,
+.media {
+    width: 700px;
+    height: 230px;
+    border: 3px solid blue;
+
+    & div {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+        align-items: center;
+    }
+}
+
+.container, .media {
+    container-type: inline-size;
+    container-name: changelayout;
+}
+
+@container changelayout (width <= 600px) {
+    :is(.media, .container) div {
+        grid-template-columns: 1fr;
+    }
+     h1 {
+        text-transform: uppercase;
+     }
+} 
