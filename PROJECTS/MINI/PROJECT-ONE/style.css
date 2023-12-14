@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 5px lightcoral;
+    border-block: 7px solid lightcoral;
+    padding: 10px;
+    color: white;
+}
+
+.parent-div {
+    position: relative;
+    width: 500px;
+    aspect-ratio: 1;
+    background-color: lightcoral;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.child-div {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: lightblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border: 2px solid lightseagreen;
+}
